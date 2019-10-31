@@ -43,6 +43,7 @@ article{
 	Mobile Devices: 0 - 480 pixels
    ============================================
 */
+/*this will change the apperence on a phone*/
 @media only screen and (max-width: 480px){
    img.panel{
       width: 100%;
@@ -63,6 +64,7 @@ article{
 	Tablet and Desktop Devices: Greater than 480 pixels
    ===================================================
 */
+/*this will order the nav bar in order horizontally*/
 @media only screen and (min-width: 481px){
    nav.horizontal ul{
       display: -webkit-flex-box;
@@ -75,16 +77,16 @@ article{
       -webkit-flex: 1 1 auto;
       flex: 1 1 auto;
    }
-   img.panelsize1{
-      width: 100%
+   img.size1{
+      width: 100%;
    }
-   img.panelsize2{
-      width: 60%
+   img.size2{
+      width: 60%;
    }
-   img.panelsize3{
-      width: 40%
+   img.size3{
+      width: 40%;
    }
-   img.panelsize4{
-      width: 30%
+   img.size4{
+      width: 30%;
    }
 }

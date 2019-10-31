@@ -17,7 +17,30 @@
 
 
 /* Hidden Objects */
-
+/*this will hide the nav, footer, and article when you print it*/
+nav, footer, article{
+   display: none;
+}
+section#sheet{
+   width: 6in;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: none;
+   margin-left: none;
+   order: center;
+}
+img.size1{
+   width: 5in;
+}
+img.size2{
+   width: 3in;
+}
+img.size3{
+   width: 2in;
+}
+img.size4{
+   width: 1.5in;
+}
 
 
 
