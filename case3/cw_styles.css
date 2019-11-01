@@ -142,7 +142,7 @@ nav#bottom ul{
    }
    nav#top ul li{
       max-width: 80px;
-      flex-shrink: 80px;
+      flex: 1 1 80px;
    }
    p#links{
       display: none;
